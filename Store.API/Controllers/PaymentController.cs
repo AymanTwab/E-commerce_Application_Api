@@ -11,7 +11,7 @@ namespace Store.API.Controllers
     {
         private readonly IPaymentService _paymentService;
         private readonly ILogger<PaymentController> _logger;
-        private const string endpointSecret = "whsec_d049f01af65ee86194dfd73fcb05b8b3f7d0873f78ac0e3b0dec550eb9c8f120";
+        private const string endpointSecret = "lorem";
 
         public PaymentController(
             IPaymentService paymentService,
